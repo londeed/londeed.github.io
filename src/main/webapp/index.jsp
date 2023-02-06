@@ -1,5 +1,3 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Fabio</title>
@@ -16,7 +14,7 @@
       margin: 0;
       padding: 0;
       width: 25%;
-      background-color: lightgoldenrodyellow;
+      background-color: antiquewhite;
       position: fixed;
       height: 100%;
       overflow: auto;
@@ -72,12 +70,21 @@
 <body>
 
 <ul class="sidenav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">Istruzione</a></li>
-  <li><a href="#contact">Lavoro</a></li>
-  <li><a href="#about">Contatti</a></li>
-  <li><a><img src="Img/DSC_0153.jpg" height="180px" width="180px" style="border-radius: 50%"></a></li>
+  <form action="/ServletGeneral" method="get">
+    <br>
+    <li><a><img src="Img/DSC_0153.jpg" height="180px" width="180px" style="border-radius: 50%"></a></li>
+    <br><br><br>
+    <li><a href="#news">Su di me</a></li>
+    <li><a href="#news">Istruzione</a></li>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#contact">Lavoro</a></li>
+    <li><button><input type="hidden">Contatti</button></li>
+    <br><br><br><br><br><br><br><br><br>
+    <li><a href="https://github.com/londeed"><img src="Img/github.png" height="40px" width="40px" style="border-radius: 50%"></a></li>
+    <li><a href="https://www.linkedin.com/in/fabio-caruso-ab7454227"><img src="Img/linkedin.png" height="40px" width="40px" style="border-radius: 50%"></a></li>
+  </form>
 </ul>
+
 
 </body>
 </html>
