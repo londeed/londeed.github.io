@@ -1,4 +1,3 @@
-# londeed.github.io
 <script>
-    window.location.href = "http://localhost:8080/Alfa_war/utente/home";
+    window.location.href = "https://londeed.github.io/src/main/webapp/HomePage.html";
 </script>
