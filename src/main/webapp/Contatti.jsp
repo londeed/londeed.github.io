@@ -76,20 +76,11 @@
     </style>
 </head>
 <body>
+<br><br><br>
+<a href="https://github.com/londeed"><img src="Img/github.png" height="40px" width="40px" style="border-radius: 50%"></a>
+<br><br><br>
+<a href="https://www.linkedin.com/in/fabio-caruso-ab7454227"><img src="Img/linkedin.png" height="40px" width="40px" style="border-radius: 50%"></a>
 
-<ul class="sidenav">
-    <br>
-    <li><a><img src="Img/DSC_0153.jpg" height="180px" width="180px" style="border-radius: 50%"></a></li>
-    <br><br><br>
-    <li><a href="#news">Su di me</a></li>
-    <li><a href="#news">Istruzione</a></li>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#contact">Lavoro</a></li>
-    <li><a href="#about">Contatti</a></li>
-    <br><br><br><br><br><br><br><br><br>
-    <li><a href="https://github.com/londeed"><img src="Img/github.png" height="40px" width="40px" style="border-radius: 50%"></a></li>
-    <li><a href="https://www.linkedin.com/in/fabio-caruso-ab7454227"><img src="Img/linkedin.png" height="40px" width="40px" style="border-radius: 50%"></a></li>
-</ul>
 
 </body>
 </html>
