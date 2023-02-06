@@ -70,7 +70,7 @@
 <body>
 
 <ul class="sidenav">
-  <form action="/ServletGeneral" method="get">
+  <form action="${pageContext.request.contextPath}/ServletGeneral" method="get">
     <br>
     <li><a><img src="Img/DSC_0153.jpg" height="180px" width="180px" style="border-radius: 50%"></a></li>
     <br><br><br>

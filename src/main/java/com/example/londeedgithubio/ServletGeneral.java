@@ -10,7 +10,7 @@ public class ServletGeneral extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        RequestDispatcher dispatcher=request.getRequestDispatcher("../webapp/WEB-INF/Contatti.jsp");
+        RequestDispatcher dispatcher=request.getRequestDispatcher("/WEB-INF/Contatti.jsp");
         dispatcher.forward(request, response);
     }
 
