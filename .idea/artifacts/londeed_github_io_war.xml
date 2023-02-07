@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="londeed.github.io:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>londeed.github.io</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="londeedgithubio-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="londeed.github.io:war exploded" />
+    </root>
+  </artifact>
+</component>
