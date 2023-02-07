@@ -10,7 +10,7 @@
 <head>
     <title>Contatti</title>
     <title>Fabio</title>
-    <link href="WEB-INF/headerCSS.css" rel="stylesheet">
+    <link href="headerCSS.css" rel="stylesheet">
 
     <style>
         body {
@@ -77,9 +77,9 @@
 </head>
 <body>
 <br><br><br>
-<a href="https://github.com/londeed"><img src="Img/github.png" height="40px" width="40px" style="border-radius: 50%"></a>
+<a href="https://github.com/londeed"><img src="../Img/github.png" height="40px" width="40px" style="border-radius: 50%"></a>
 <br><br><br>
-<a href="https://www.linkedin.com/in/fabio-caruso-ab7454227"><img src="Img/linkedin.png" height="40px" width="40px" style="border-radius: 50%"></a>
+<a href="https://www.linkedin.com/in/fabio-caruso-ab7454227"><img src="../Img/linkedin.png" height="40px" width="40px" style="border-radius: 50%"></a>
 
 
 </body>
