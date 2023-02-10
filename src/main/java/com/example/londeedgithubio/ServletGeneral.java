@@ -9,13 +9,11 @@ import java.io.IOException;
 public class ServletGeneral extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        RequestDispatcher dispatcher=request.getRequestDispatcher("/WEB-INF/Contatti.jsp");
-        dispatcher.forward(request, response);
+        //NULL
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        //NULL
     }
 }
